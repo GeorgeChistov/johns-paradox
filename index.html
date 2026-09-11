@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JOHN'S PARADOX — an eight-part mystery thriller</title>
+<meta name="description" content="Every night a hidden council writes tomorrow for every mind on Earth. A burned-out Boston broker is the glitch: each time he sleeps, he wakes up in a new country with nothing. An 8 x 1-hour mystery thriller by George Chistov, adapted from his two-novel saga.">
+<meta property="og:title" content="JOHN'S PARADOX — an eight-part mystery thriller">
+<meta property="og:description" content="We know exactly where you'll be tomorrow. A high-concept mystery thriller series adapted from the novel duology by George Chistov.">
+<meta property="og:image" content="https://georgechistov.github.io/johns-paradox/img/og.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://georgechistov.github.io/johns-paradox/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230E0E14'/%3E%3Cpath d='M14 22 L32 46 L50 22 M32 46 L32 14' stroke='%23C9A75B' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0E0E14;--panel:#161620;--text:#E8E4DA;--dim:#9A958A;--gold:#C9A75B;--purple:#9A6BC4;--line:#26262F;--max:1100px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:18px;line-height:1.55}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:"Bricolage Grotesque","Source Sans 3",sans-serif;line-height:1.1;margin:0;text-wrap:balance}
+h2{font-size:clamp(28px,3.4vw,40px);font-weight:700;margin-bottom:18px}
+h3{font-size:22px;font-weight:700;margin-bottom:8px}
+.kicker{font-family:"Bricolage Grotesque",sans-serif;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+p{margin:0 0 14px;max-width:70ch}
+.gold{color:var(--gold)}.purple{color:var(--purple)}.dim{color:var(--dim)}
+nav{position:sticky;top:0;z-index:10;background:rgba(14,14,20,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:60px}
+nav .brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;letter-spacing:.12em;font-size:14px;color:var(--text)}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+nav ul a{color:var(--dim);font-size:14px;letter-spacing:.04em}
+nav ul a:hover{color:var(--text);text-decoration:none}
+.btn{display:inline-block;padding:11px 18px;border:1px solid var(--gold);color:var(--gold);border-radius:4px;font-weight:600;font-size:15px;letter-spacing:.03em}
+.btn:hover{background:var(--gold);color:#0E0E14;text-decoration:none}
+.btn.solid{background:var(--gold);color:#0E0E14}
+.btn.solid:hover{background:#dcbb72}
+header.hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;background:#000 url(img/keyart_wide.jpg) center 30%/cover no-repeat}
+header.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,14,20,.15) 0%,rgba(14,14,20,.55) 55%,rgba(14,14,20,.96) 100%)}
+header.hero .wrap{position:relative;z-index:1;padding-top:120px;padding-bottom:64px}
+.hero .kicker{color:var(--text);opacity:.85}
+.hero h1{font-size:clamp(44px,8vw,96px);font-weight:700;letter-spacing:-.01em}
+.hero .tag{font-family:"Bricolage Grotesque",sans-serif;color:var(--gold);font-weight:700;font-size:clamp(16px,2vw,22px);letter-spacing:.06em;margin:18px 0 10px}
+.hero .sub{color:var(--dim);font-size:16px;margin-bottom:26px}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:84px 0;border-top:1px solid var(--line)}
+section.tight{padding:60px 0}
+.grid2{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.grid2.rev{grid-template-columns:.85fr 1.15fr}
+.figure{border-radius:6px;overflow:hidden;background:var(--panel)}
+.figure img{width:100%;height:100%;object-fit:cover;aspect-ratio:3/4}
+.figure.wide img{aspect-ratio:16/9}
+.logline{font-family:"Bricolage Grotesque",sans-serif;font-size:clamp(22px,2.6vw,30px);font-weight:500;line-height:1.35;max-width:24em}
+.rule-big{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;color:var(--gold);font-size:clamp(20px,2.2vw,26px);max-width:28em;margin-top:10px}
+.receipt{font-family:ui-monospace,Menlo,Consolas,monospace;background:#f3efe3;color:#1b1a14;padding:20px 22px;border-radius:3px;max-width:520px;box-shadow:0 20px 40px rgba(0,0,0,.45);transform:rotate(-1.2deg);margin:26px 0 8px}
+.receipt .r1{font-size:12px;letter-spacing:.1em;color:#6b6656}
+.receipt .r2{font-size:18px;font-weight:700;margin:8px 0 4px;letter-spacing:.02em}
+.receipt .r3{font-size:12px;letter-spacing:.14em;color:#6b6656}
+.signs{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.glyphs{display:flex;gap:40px;margin-top:20px}
+.glyph{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600;letter-spacing:.08em;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:var(--panel);border-radius:6px;overflow:hidden}
+.card img{aspect-ratio:3/4;object-fit:cover;width:100%}
+.card .b{padding:14px 16px 18px}
+.card h3{font-size:16px;letter-spacing:.14em;color:var(--gold)}
+.card p{font-size:14px;color:var(--dim);margin:0}
+.rows{display:grid;gap:10px;margin-top:6px}
+.row{display:grid;grid-template-columns:200px 1fr;gap:20px;background:var(--panel);border-left:3px solid var(--purple);padding:16px 20px;border-radius:0 6px 6px 0}
+.row b{font-family:"Bricolage Grotesque",sans-serif;color:var(--purple);letter-spacing:.1em;font-size:14px;padding-top:3px}
+.row span{color:var(--text)}
+.gears{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 22px}
+.gear{border:1px solid var(--gold);background:var(--panel);padding:14px;border-radius:4px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+.strip img{aspect-ratio:3/4;object-fit:cover;width:100%;border-radius:4px}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.quote{background:var(--panel);padding:22px 22px 18px;border-radius:6px;border-top:2px solid var(--gold)}
+.quote p{font-style:italic;font-size:17px;margin-bottom:12px}
+.quote small{color:var(--gold);letter-spacing:.14em;font-size:11px;font-weight:600}
+.comps{display:grid;gap:10px;margin-bottom:22px}
+.comp{background:var(--panel);padding:18px 22px;border-radius:6px;display:grid;grid-template-columns:260px 1fr;gap:16px;align-items:baseline}
+.comp b{font-family:"Bricolage Grotesque",sans-serif;font-size:22px;letter-spacing:.06em}
+.comp span{color:var(--dim)}
+.team{display:grid;grid-template-columns:1fr 1fr;gap:14px 40px}
+.member b{display:block;font-size:18px}
+.member span{color:var(--dim);font-size:15px}
+.note{background:var(--panel);border-left:3px solid var(--purple);padding:16px 20px;border-radius:0 6px 6px 0;margin-top:22px}
+.status{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.kv{display:grid;grid-template-columns:150px 1fr;gap:10px 18px}
+.kv b{color:var(--gold);letter-spacing:.14em;font-size:12px;padding-top:4px}
+.author{display:grid;grid-template-columns:220px 1fr;gap:36px;align-items:center}
+.author img{border-radius:6px;aspect-ratio:2/3;object-fit:cover}
+.contact{background:var(--panel);border-radius:8px;padding:36px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+.contact h2{margin-bottom:10px}
+.contact .lines{display:grid;gap:8px;font-size:17px}
+footer{padding:36px 0 60px;color:var(--dim);font-size:14px;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (max-width:860px){
+  nav ul{display:none}
+  .grid2,.grid2.rev,.signs,.status,.author,.contact{grid-template-columns:1fr}
+  .cards,.strip,.gears,.quotes{grid-template-columns:1fr 1fr}
+  .row,.comp{grid-template-columns:1fr}
+  .team{grid-template-columns:1fr}
+  section{padding:56px 0}
+  header.hero{min-height:70vh}
+  .author img{max-width:220px}
+}
+@media (max-width:520px){.cards,.strip,.gears,.quotes{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">JOHN'S PARADOX</a>
+    <ul>
+      <li><a href="#pilot">The pilot</a></li>
+      <li><a href="#season">Season one</a></li>
+      <li><a href="#blacklist">Black List</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#status">Status</a></li>
+    </ul>
+    <a class="btn" href="#contact">Request the pilot</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="kicker">An eight-part mystery thriller · based on the novel duology by George Chistov</div>
+    <h1>JOHN'S PARADOX</h1>
+    <div class="tag">WE KNOW EXACTLY WHERE YOU'LL BE TOMORROW.</div>
+    <div class="sub">8 × 1 hour · psychological thriller · mystery · pilot script complete</div>
+    <div class="ctas">
+      <a class="btn solid" href="#contact">Request the pilot</a>
+      <a class="btn" href="https://drive.google.com/drive/folders/1I5d_rgmopRWftpjq0U02qiEvtDPmjOlq?usp=drive_link" target="_blank" rel="noopener">Deck &amp; synopsis</a>
+    </div>
+  </div>
+</header>
+
+<section id="logline">
+  <div class="wrap grid2">
+    <div>
+      <div class="kicker">Logline</div>
+      <p class="logline">Every night, while the world sleeps, a hidden council loads a ready-made script for tomorrow into every mind on Earth — and people wake up and live it, none the wiser. A burned-out Boston broker is the glitch: his own sleep hurls him to a random point on the planet — no money, no papers, no explanation. The one man outside their script may be the only one who can rewrite it.</p>
+    </div>
+    <div class="figure"><img src="img/rails.jpg" alt="A man in a T-shirt and briefs on railroad tracks in the desert" loading="lazy"></div>
+  </div>
+</section>
+
+<section id="rule">
+  <div class="wrap grid2 rev">
+    <div class="figure"><img src="img/neon.jpg" alt="A neon-lit street at night" loading="lazy"></div>
+    <div>
+      <div class="kicker">The rule</div>
+      <p>The rule is simple, and it has never been broken: the moment John falls asleep, he wakes up somewhere else on the planet. No money, no papers, barefoot — a T-shirt and briefs, every time. Distance doesn't matter. Walls don't matter: a locked cell, ambulance restraints, a chained padlock — all of it stands empty by morning. He can't turn it off. He can't choose where. All he can do is stay awake — and no one stays awake forever.</p>
+      <p>This is not a time loop. Days don't repeat, and the world moves on without him: bills pile up, his family buries hope, the police open files. John remembers everything. Only the coordinates reset.</p>
+      <p class="rule-big">One more thing: every morning, someone already knows where he is.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pilot">
+  <div class="wrap grid2">
+    <div>
+      <div class="kicker">The pilot</div>
+      <p>Boston broker John lies for a living — to clients, to his boss, to himself. After one bender too many he wakes up on railroad tracks in the Mexican desert, seconds ahead of a freight train. Robbery, he decides. Then a locked cell stands empty by morning. A hidden-camera show, he decides. Then a Prague phone call ends it all: he's been gone two weeks, he's fired, and his ex-wife's last words are "Goodbye, John."</p>
+      <p>So he stops calling home — and starts driving there: a stolen pickup across Ontario, racing the police and sleep itself, until a motel room, a chain, a padlock, a knock at the door. By morning the chain hangs locked and empty — and a mark is drawn in the snow on the hood.</p>
+      <p>After rock bottom in a Seoul den and on a Naples subway platform, John stops fighting the game and starts playing it: a wager with a Russian billionaire, won overnight. Then a Singapore ATM greets a man who never gave his name — HELLO, JOHN — and prints a receipt:</p>
+      <div class="receipt">
+        <div class="r1">LUMINIS BANK · SINGAPORE · 06:14</div>
+        <div class="r2">WE KNOW EXACTLY WHERE YOU WILL BE TOMORROW.</div>
+        <div class="r3">THANK YOU FOR BANKING WITH US</div>
+      </div>
+    </div>
+    <div class="figure"><img src="img/motel.jpg" alt="A snowed-in motel room with a chain on the pipe" loading="lazy"></div>
+  </div>
+</section>
+
+<section id="signs">
+  <div class="wrap signs">
+    <div class="figure wide"><img src="img/hood.jpg" alt="A mark drawn through snow on the hood of a pickup" loading="lazy"></div>
+    <div>
+      <div class="kicker">The signs</div>
+      <p>The audience starts seeing them long before the hero does: a wide check-mark and a vertical stroke. Scratched into a cell wall. Chalked on a post. Drawn by a finger through the snow on a stolen pickup's hood. Stroke up: help here. Stroke down: run. The marks hide among genuine hobo signs — the chalk language of drifters that nobody reads anymore.</p>
+      <p>Someone is marking up the planet along John's route — and it isn't Igor. The show trains its audience to hunt for signs in the frame, the way <em>Lost</em> trained a generation to count numbers.</p>
+      <div class="glyphs">
+        <div class="glyph"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 22 L32 46 L52 22 M32 46 L32 10" stroke="#C9A75B" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>HELP HERE</div>
+        <div class="glyph"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 18 L32 42 L52 18 M32 22 L32 58" stroke="#C9A75B" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>RUN</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="players" class="tight">
+  <div class="wrap">
+    <div class="kicker">The players</div>
+    <div class="cards">
+      <div class="card"><img src="img/igor.jpg" alt="Igor" loading="lazy"><div class="b"><h3>IGOR</h3><p>The billionaire behind Luminis Group. "To count on luck is to surrender power over your life." Lost a bet to John. A little too easily.</p></div></div>
+      <div class="card"><img src="img/semyon.jpg" alt="Semyon" loading="lazy"><div class="b"><h3>SEMYON</h3><p>Igor's shadow. An expressionless face from a TV news clip that John will recognize in the middle of the ocean.</p></div></div>
+      <div class="card"><img src="img/hartman.jpg" alt="Hartman" loading="lazy"><div class="b"><h3>HARTMAN</h3><p>A sleep doctor from a Prague beer hall: "At night the brain assembles your tomorrow." He doesn't know yet how literally right he is.</p></div></div>
+      <div class="card"><img src="img/family.jpg" alt="Catherine and Jenny" loading="lazy"><div class="b"><h3>CATHERINE &amp; JENNY</h3><p>Everything John lost before the first jump. The stake behind every hand he plays.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="season">
+  <div class="wrap grid2 rev">
+    <div class="figure"><img src="img/yacht.jpg" alt="A white yacht on the open ocean" loading="lazy"></div>
+    <div>
+      <div class="kicker">Season one</div>
+      <p>The bet was never a bet — it was a recruitment test. Igor's empire has use for a man no border, lock or guard can hold, and the season pulls John into jobs only he can do. He learns the price of his gift fast: anyone who gets close becomes leverage. Meanwhile the marks add up to a pattern: a second force is shadowing his jumps — one that pays in clues.</p>
+      <p>By the season finale John understands there is more than one player at the table. Igor's empire. The people behind the signs. And — in stray shadows across the behavior of both — a third: someone above the game itself.</p>
+      <p class="dim"><em>Based on the first novel of the completed saga.</em></p>
+    </div>
+  </div>
+</section>
+
+<section id="mythology" class="tight">
+  <div class="wrap">
+    <div class="kicker">The mythology</div>
+    <h2>Hartman's barroom theory is true — literally. In sleep, every human being on Earth has their next day assembled for them.</h2>
+    <div class="rows">
+      <div class="row"><b>THE REGENTS</b><span>Temporary stewards who have written humanity's script for centuries. Igor is their face in this story.</span></div>
+      <div class="row"><b>THE OPPOSITION</b><span>People who know the truth about the world order. The marks are theirs.</span></div>
+      <div class="row"><b>THE HIGH REGENT</b><span>The puppeteer in whose name Earth's entire script is written. His nature is not human. His reveal is the engine of Season Two.</span></div>
+    </div>
+    <p class="rule-big">John is the single glitch in the global script. To some — a threat. To others — a weapon.</p>
+  </div>
+</section>
+
+<section id="engine" class="tight">
+  <div class="wrap">
+    <div class="kicker">The episode engine</div>
+    <p>Every episode opens with a new awakening: new country, new language, zero resources. Inside each hour, four gears turn:</p>
+    <div class="gears">
+      <div class="gear">Survive today</div>
+      <div class="gear">A job for Igor only John can pull off</div>
+      <div class="gear">A sign that moves the mystery</div>
+      <div class="gear">A step deeper into the mythology</div>
+    </div>
+    <p>An anthology inside a serial: a new location every episode, a guest role every episode — and a season-long hunt that never lets go. The through-line of the season's first half: reach Igor. John is convinced the man who found him in the middle of an ocean knows the truth about the jumps; Igor becomes something like a savior to him. Every episode brings the meeting closer — and breaks it. The disappointment is by design: Igor has no answers. Igor has plans.</p>
+    <p class="rule-big">This is the show that physically cannot stop moving.</p>
+  </div>
+</section>
+
+<section id="look" class="tight">
+  <div class="wrap">
+    <div class="kicker">Tone &amp; look</div>
+    <div class="strip">
+      <img src="img/havana.jpg" alt="Sunlit Havana street" loading="lazy">
+      <img src="img/dump.jpg" alt="Garbage dump at dawn" loading="lazy">
+      <img src="img/favela.jpg" alt="Favela chase" loading="lazy">
+      <img src="img/den.jpg" alt="A den in Seoul" loading="lazy">
+    </div>
+    <p>A dark mystery with a dry sense of humor. One small figure against an enormous planet — and the camera loves them both. Real countries, no postcard gloss: a garbage dump smash-cut against sunlit Havana. Luminis purple is the color of power; dawn gold is the color of a freedom that keeps turning out to be someone else's.</p>
+  </div>
+</section>
+
+<section id="blacklist">
+  <div class="wrap">
+    <div class="kicker">What The Black List said</div>
+    <div class="quotes">
+      <div class="quote"><p>"As a psychological thriller series, this project fits into the current zeitgeist of what is working in TV currently: high-concept drama series with propulsive plots and deeply resonant characters."</p><small>THE BLACK LIST EVALUATION, 2026</small></div>
+      <div class="quote"><p>"Even with John's sad state, the audience feels both empathy and disappointment. This makes John a dynamic character."</p><small>THE BLACK LIST EVALUATION, 2026</small></div>
+      <div class="quote"><p>"Because JOHN'S PARADOX is based on a book series, this will be more attractive to buyers because it makes the project less risky."</p><small>THE BLACK LIST EVALUATION, 2026</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="comps" class="tight">
+  <div class="wrap">
+    <div class="kicker">Comparables</div>
+    <div class="comps">
+      <div class="comp"><b>SEVERANCE</b><span>A managed reality run by unseen powers.</span></div>
+      <div class="comp"><b>LOST</b><span>A mystery the audience learns to hunt for.</span></div>
+      <div class="comp"><b>THE BOURNE IDENTITY</b><span>One man, no papers, surviving the whole planet.</span></div>
+    </div>
+    <p class="rule-big">Unlike any of them, our hero can't stay anywhere longer than a day.</p>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <div class="kicker">The team</div>
+    <div class="team">
+      <div class="member"><b>Michael Abt — Director</b><span>DGA member · 300+ commercials worldwide · directing his first series</span></div>
+      <div class="member"><b>Paul Cameron, ASC — Director of Photography</b><span>Collateral · Man on Fire · Westworld (pilot)</span></div>
+      <div class="member"><b>Nicola Pecorini — Director of Photography</b><span>Fear and Loathing in Las Vegas · The Zero Theorem</span></div>
+      <div class="member"><b>Mike Malov — Producer · DiFFERENT VISION LLC</b><span>VFX supervisor &amp; VFX producer, Hardcore Henry · Hallandale Beach, FL</span></div>
+    </div>
+    <div class="note"><b class="purple">VAGABOND PRODUCTION SERVICES · NEW YORK</b><br>Production infrastructure partner. A worldwide production network — for a show whose hero wakes up in a new country every morning, the logistics come pre-solved.</div>
+    <p class="dim" style="margin-top:16px"><em>Creative team attached, subject to financing.</em></p>
+  </div>
+</section>
+
+<section id="status">
+  <div class="wrap status">
+    <div>
+      <div class="kicker">Format &amp; status</div>
+      <div class="kv">
+        <b>FORMAT</b><span>8 × 1 hour · ongoing series</span>
+        <b>PILOT SCRIPT</b><span>Complete (English, 69 pp.) · season one arc mapped</span>
+        <b>SOURCE</b><span>Completed two-novel saga (Russian edition 2024; English edition in preparation)</span>
+        <b>NEXT</b><span>A 6–10-minute proof-of-concept in early 2027, then the pilot with a distribution / co-production partner</span>
+        <b>FINANCING</b><span>Florida county incentives up to 20% · brand integrations targeted for up to 50% of the pilot budget</span>
+        <b>SEEKING</b><span>Production partner and packaging finance</span>
+      </div>
+    </div>
+    <div class="author">
+      <img src="img/author.jpg" alt="George Chistov" loading="lazy">
+      <div>
+        <div class="kicker">The author</div>
+        <p><b>George Chistov</b> is a novelist and screenwriter based in Clearwater, Florida. JOHN'S PARADOX is adapted from his two-novel saga; he wrote the pilot and the season bible and leads the project as creator. Before writing full-time he spent fifteen years building and running companies — which is why his stories tend to be about people who only think they're in control.</p>
+        <p class="dim"><a href="https://www.imdb.com/name/nm18455905/" target="_blank" rel="noopener">IMDb</a> · <a href="https://blcklst.com/profiles/georgechistov" target="_blank" rel="noopener">The Black List</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="tight">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <div class="kicker">Request the pilot</div>
+        <h2>Pilot script, synopsis, season bible and deck — on request.</h2>
+        <p class="dim">One line is enough: who you are and what you'd like to read. Materials are shared as view-only links within one business day.</p>
+        <a class="btn solid" href="mailto:geocadastr40@gmail.com?subject=JOHN%27S%20PARADOX%20%E2%80%94%20request%20for%20materials&body=Hi%20George%2C%0A%0AI%27d%20like%20to%20read%3A%20pilot%20%2F%20deck%20%2F%20synopsis%20%2F%20season%20bible.%0A%0AName%3A%0ACompany%3A%0ARole%3A%0A">Email George</a>
+      </div>
+      <div class="lines">
+        <div><b>George Chistov</b><br><span class="dim">Creator / writer · Clearwater, FL</span></div>
+        <div><a href="mailto:geocadastr40@gmail.com">geocadastr40@gmail.com</a></div>
+        <div><a href="tel:+17273018134">+1 (727) 301-8134</a></div>
+        <div><a href="https://drive.google.com/drive/folders/1I5d_rgmopRWftpjq0U02qiEvtDPmjOlq?usp=drive_link" target="_blank" rel="noopener">Deck, synopsis &amp; one-pager (Google Drive)</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 George Chistov · JOHN'S PARADOX</div>
+    <div>All images are concept art for the series.</div>
+  </div>
+</footer>
+
+</body>
+</html>
